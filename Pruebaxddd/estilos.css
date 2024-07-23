@@ -1,0 +1,373 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 0px;
+    grid-row-gap: 0px;
+    
+}
+
+.space{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 0px;
+    grid-row-gap: 0px;
+    height: 140vh; 
+    padding-left: 40px;
+    justify-content: center; 
+    align-content: space-between;  
+}
+
+
+.cuadro1{
+    height: 110px;
+    width: 105px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+
+.invisible{
+    background: rgb(255, 255, 255, 0.0);
+    height: 110px;
+    width: 105px;
+    transition-duration: 0.9s;
+    padding: 5px;
+    border: solid 5px black;
+}
+
+
+.titulo{
+    text-align: center;
+    color: brown;
+    background-color: white;
+    position: absolute;
+    top: 2%;
+    left: 18%;
+
+}
+
+.atomico{
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 5px;
+    position: absolute;
+    font-weight: bold ;
+}
+
+.simbolo{
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+    text-align: center;
+}
+
+.nombre{
+    font-size: 15px;
+    line-height: 0px;
+    position: relative;
+    text-align: center;
+    top: 33px;
+    font-weight: bold ;
+}
+.confie{
+    font-size: 10px;
+    line-height: 0px;
+    position: relative;
+    top: 15px;
+    text-align:center;
+    font-weight: bold ;
+}
+
+.peso{
+    font-size: 12px;
+    line-height: 0px;
+    text-align: right; 
+    align-self: center; 
+    position: relative; 
+    left: auto; 
+    transform: none;
+    font-weight: bold ; 
+
+}
+.estox{
+    font-size: 10px;
+    line-height: 0px;
+    position: relative;
+    top: 13px;
+    text-align: right;
+    font-weight: bold ;
+    
+
+}
+.electro{
+    font-size: 11px;
+    line-height: 0px;
+    position: relative;
+    top: 24px;
+    text-align: right;
+    font-weight: bold ;
+}
+
+.ra{
+    font-size: 10px;
+    line-height: 0px;
+    position: relative;
+    bottom: 35px;
+    right: 5px;
+    font-weight: bold ;
+
+
+}
+.pue{
+    font-size: 10px;
+    line-height: 0px;
+    position: relative;
+    bottom: 25px;
+    right: 5px;
+    font-weight: bold ;
+
+}
+.puf{
+    font-size: 10px;
+    line-height: 0px;
+    position: relative;
+    bottom: 15px;
+    right: 5px;
+    font-weight: bold ;
+
+}
+.den{
+    font-size: 10px;
+    line-height: 0px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    font-weight: bold ;
+
+}
+.mol{
+    font-size: 10px;
+    line-height: 0px;
+    position: relative;
+    bottom: -5px;
+    right: 5px;
+    font-weight: bold ;
+
+
+}
+
+.coloresre{
+    background: white;
+    border: solid 2px black;
+    width: 27%;
+    height: 240px;
+    position: relative;
+    left: 39%;
+    top: 320px;
+}
+
+.minicuadro{
+    background: white;
+    border: solid 2px black;
+    width: 19%;
+    height: 130px;
+    position: relative;
+    left: 49.80%;
+    top: 235px;
+}
+
+@media screen and (max-width: 1200px) {
+    .minicuadro {
+        width: 30%; 
+        left: 35%; 
+        top: 300px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .minicuadro {
+        width: 50%; 
+        left: 25%; 
+        top: 200px; 
+    }
+}
+
+
+
+.rayo{
+    background: white;
+    border: solid 2px black;
+    position: relative;
+    width: 94%;
+    left:20px;
+    top: 60px;
+}
+
+h5{
+    left: 40px;
+    position: relative;
+    font-weight: bold;
+}
+
+h4{
+    text-shadow: blue 1px 1px 3px;
+}
+.ne{
+    right: -5px;
+    width: 200px;
+    position: relative;
+}
+
+.h3t{
+    left: 40px;
+    position: relative;
+    bottom: 36px;
+}
+
+.Ga{
+    color: red;
+    font-size: 26px;
+    position: relative;
+    font-weight: bold;
+    bottom: 35px;
+    left: 4px;
+}
+
+.Ga2{
+    font-size: 50;
+    position: relative;
+    left: 40px;
+    bottom: 75px;
+}
+
+.Fe{
+    position: absolute;
+    right: 70px;
+    bottom: 51px;
+}
+
+.Tc{
+    text-shadow: black 1px 1px 3px;
+    color: white;
+    position: relative;
+    left: 160px;
+    bottom: 116px;
+}
+
+.Tcsi{
+    position: relative;
+    bottom: 155px;
+    left:195px;
+}
+
+
+.cuadrito1{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 16px;
+    top: 18px;
+}
+
+.cuadrito2{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 130px;
+    bottom: 17px;
+}
+
+.cuadrito3{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 290px;
+    bottom: 51px;
+}
+
+.cuadrito4{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 16px;
+    bottom: 35px;
+}
+
+.cuadrito5{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 16px;
+    bottom: 30px;
+}
+
+.cuadrito6{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 45px;
+    bottom: 24px;
+}
+
+.cuadrito7{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 45px;
+    bottom: 20px;
+}
+
+.cuadrito8{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    right: -290px;
+    bottom: 175px;
+}
+
+.cuadrito9{
+    border: solid 2px black;
+    box-shadow: 50px black;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    right: -290px;
+    bottom: 170px;
+}
+
+.cuadritoeje{
+    background: rgb(11, 125, 239);
+    height: 110px;
+    width: 105px;
+    transition-duration: 0.9s;
+    background-color: #0ee39c;
+    border: 2px solid #060505;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textoc{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+

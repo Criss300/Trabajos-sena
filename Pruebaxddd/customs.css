@@ -1,0 +1,773 @@
+body{
+    background-image: radial-gradient(rgb(78, 159, 241),rgb(175, 92, 160) );
+    margin: 0;
+    padding: 0; 
+}
+
+
+
+.custom-margin-right{
+    margin-right: 20px
+
+}
+
+.metales{
+    background: linear-gradient(to bottom left, white, rgba(163, 8, 202, 0.74));
+    transition-duration: 0.9s;
+    background-color: rgba(163, 8, 202, 0.74);
+    
+}
+.metales:hover{
+    background: #cf45f2e5;
+    transform: scale(1.05);
+
+}
+
+.nometales{
+    background: linear-gradient(to bottom left, rgb(174, 231, 199),  rgb(106, 234, 63));
+    transition-duration: 0.9s;
+    background-color: #79f195;
+
+}
+
+.nometales:hover{
+    background: #16eb44;
+    transform: scale(1.05);
+
+}
+
+
+.nometal{
+    background: linear-gradient(to bottom left, rgb(203, 237, 217),  rgb(3, 207, 122));
+    transition-duration: 0.9s;
+    background-color: #4ecf6c;
+
+}
+
+.nometal:hover{
+    background: #16eb44;
+    transform: scale(1.05);
+
+}
+
+.metalesrepre{
+    background: linear-gradient(to bottom left, rgb(183, 216, 240), rgb(11, 125, 239));
+    transition-duration: 0.9s;
+    background-color: #45a1f2;
+}
+.metalesrepre:hover{
+    background: #67afdf;
+    transform: scale(1.05);
+}
+
+.semimetal{
+    background: linear-gradient(to bottom left, rgb(245, 182, 182), #f43232);
+    transition-duration: 0.9s;
+    background-color: #f43232;
+}
+
+.semimetal:hover{
+    background: #df6785;
+    transform: scale(1.05);
+}
+
+.metalestran{
+    background: linear-gradient(to bottom left, white, rgba(186, 61, 217, 0.74));
+    transition-duration: 0.9s;
+}
+
+.metalestran:hover{
+    background: #b943e7;
+    transform: scale(1.05);
+}
+
+.gasesnobles{
+    background: linear-gradient(to bottom left, white, rgb(11, 125, 239));
+    transition-duration: 0.9s;
+    background-color: #50bbe6;
+}
+
+.gasesnobles:hover{
+    background: hsl(207, 82%, 63%);
+    transform: scale(1.05);
+}
+
+.antinidos{
+    background: linear-gradient(to bottom left, rgb(242, 190, 228), #f03dd9);
+    transition-duration: 0.9s;
+}
+
+.antinidos:hover{
+    background: hsl(315, 77%, 48%);
+    transform: scale(1.05);
+}
+
+.lantanidos{
+    background: linear-gradient(to bottom left, white, #f78fdd);
+    transition-duration: 0.9s;
+    background-color: #faa6e5;
+}
+
+.lantanidos:hover{
+    background: hsl(315, 67%, 72%);
+    transform: scale(1.05);
+    
+}
+
+.sintetico{
+    background: rgba(228, 209, 209, 0.89);
+    transition-duration: 0.9s;
+    background-color: #ffffff;
+}
+
+.sintetico:hover{
+    background: hsla(0, 8%, 93%, 0.986);
+    transform: scale(1.05);
+}
+
+.tama{
+    .confie{
+        font-size: 9px;
+    }
+}
+
+.taman{
+    .nombre{
+        font-size: 12px;
+    }
+}
+
+.red{
+    .simbolo{
+        color: red;
+        text-shadow: red 1px 1px 3px;    
+    }
+}
+
+.shadow{
+    .simbolo{
+        text-shadow: blue 1px 1px 3px;
+    }
+}
+
+.white{
+    .simbolo{
+        color: white;
+        text-shadow: black 1px 1px 3px;
+    }
+}
+
+.whiter{
+    .simbolo{
+        color:  rgb(255, 255, 255, 0.0);
+        text-shadow:  white -2px 2px 5px;
+        -webkit-text-stroke: 1px black; 
+    }
+}
+
+/*DECORACIONES HIDRO*/
+
+.na{
+    position: relative;
+    bottom: 76px;
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: bold;
+
+}
+.niz{
+    position: relative;
+    bottom: 20px;
+    right: 25px;
+    font-size: 25px;
+    line-height: 0px;
+    font-weight: bold;
+}
+.ng{
+    position: relative;
+    bottom: 77px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.gasen{
+    text-align: justify;
+    position: relative;
+    line-height: 2px;
+    font-size: 15px;
+    right: 5px;
+    width: 20vh;
+    top: -110px;
+}
+
+.ngal{
+    color:  rgb(255, 255, 255, 0.0);
+    text-shadow:  rgb(250, 250, 249) -2px 2px 5px;
+    -webkit-text-stroke: 1px black; 
+    position: relative;
+}
+
+.ngbri{
+    color:  rgb(255, 255, 255, 0.0);
+    text-shadow:  rgb(214, 243, 118) -2px 2px 5px;
+    -webkit-text-stroke: 1px black; 
+    position: relative;
+    bottom: 77px;
+    text-align: right;
+
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.blo{
+    position: absolute;
+    position: relative;
+    bottom: 160px;
+    left: 60px;
+    width: 100vh;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0px;
+}
+.met{
+    position: relative;
+    bottom: 178px;
+    left: 26px;
+    width: 100vh;
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: bold;
+}
+.gru{
+    position: relative;
+    bottom: 110px;
+    left: 50px;
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: bold;
+}
+.per{
+    position: relative;
+    position: relative;
+    top: 23px;
+    left: -40px;
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: bold;
+
+    /*ROTACION*/
+    transform: rotate(180deg);
+    transform-origin: left top;
+    writing-mode: vertical-lr;
+
+}
+
+/*LINEAS*/
+.raya{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 65px;
+    left: -1px;
+    bottom: 25vh;
+}
+
+.raya2{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 20px;
+    height: 1px;
+    left: -1px;
+    bottom: 31.30vh;
+}
+
+.raya3{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 80px;
+    height: 1px;
+    left: 48px;
+    bottom: 13vh;
+}
+
+.raya4{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 30px;
+    left: 48px;
+    bottom: 13vh;
+}
+
+.namenome{
+    -webkit-text-stroke: 1px black;
+    position: relative;
+    line-height: bold;
+    bottom: 176px;
+    left: 132px;
+}
+
+.namebloque{
+    -webkit-text-stroke: 1px black;
+    position: relative;
+    line-height: bold;
+    bottom: 200px;
+    left: 232px;
+
+}
+
+.raya5{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 30px;
+    left: 485px;
+    bottom: 213px;
+}
+
+
+.raya6{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 170px;
+    height: 1px;
+    left: 315px;
+    bottom: 243px;
+}
+
+.raya7{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 25px;
+    left: 45px;
+    bottom: 105px;
+}
+
+.raya8{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 85px;
+    height: 1px;
+    left: 45px;
+    bottom: 130px;
+}
+
+.namecom{
+    bottom: 130px;
+    left: 90px;
+
+}
+
+.raya9{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 55px;
+    height: 1px;
+    left: 190px;
+    bottom: 132px;
+}
+
+.raya10{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 23px;
+    left: 245px;
+    bottom: 134px;
+}
+
+.raya11{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 35vh;
+    height: 1px;
+    left: 46px;
+    bottom: 130px;
+
+}
+
+.raya12{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 23px;
+    left: 46px;
+    bottom: 130px;
+
+}
+
+.namemt{
+    position: relative;
+    width: 100vh;
+    font-weight: bold;
+    left: 40vh;
+    bottom: 166px;
+}
+
+.raya13{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 28vh;
+    height: 1px;
+    left: 67.45vh;
+    bottom: 177px;
+}
+
+.raya14{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 23px;
+    left: 95.30vh;
+    bottom: 178px;
+
+}
+
+.raya15{
+
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 39vh;
+    height: 1px;
+    left: -35px;
+    bottom: 90px;
+
+}
+
+.raya16{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 27px;
+    left: -35px;
+    bottom: 92px;
+
+}
+
+.namemti{
+    position: relative;
+    width: 100vh;
+    font-weight: bold;
+    left: 37vh;
+    bottom: 130px;
+}
+
+.raya17{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 70vh;
+    height: 1px;
+    left: 67.45vh;
+    bottom: 143px;
+}
+
+.raya18{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 1px;
+    height: 23px;
+    left: 137.20vh;
+    bottom: 145px;
+
+}
+
+.namelan{
+    position: relative;
+    bottom: 30px;
+    left: -35px;
+    font-size: 17px;
+    line-height: 0px;
+    font-weight: bold;
+
+    /*ROTACION*/
+    transform: rotate(180deg);
+    transform-origin: left top;
+    writing-mode: vertical-lr;
+
+}
+
+.nameacti{
+    position: relative;
+    top: 40px;
+    left: -35px;
+    font-size: 17px;
+    line-height: 0px;
+    font-weight: bold;
+
+    /*ROTACION*/
+    transform: rotate(180deg);
+    transform-origin: left top;
+    writing-mode: vertical-lr;
+
+}
+
+/*LINEA IZQUIERDA*/
+
+.raya19{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    right: 40px;
+    top: -60px;
+}
+
+.raya20{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    right: 40px;
+    top: -40px;
+    
+}
+
+.raya21{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    right: 40px;
+    top: -30px;
+    
+}
+
+.raya22{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    right: 40px;
+    top: -21px;
+    
+}
+
+.raya23{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    right: 40px;
+    top: -13px;
+    
+}
+
+.raya24{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    right: 40px;
+    top: -4px;
+    
+}
+
+.natomico{
+    position: relative;
+    width: 200vh;
+    right: 140px;
+    top: -82px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.ratomico{
+    position: relative;
+    width: 200vh;
+    right: 150px;
+    top: -78px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pde{
+    position: relative;
+    width: 200vh;
+    right: 168px;
+    top: -83px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.pdf{
+    position: relative;
+    width: 200vh;
+    right: 148px;
+    top: -90px;
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+.dedad{
+    position: relative;
+    width: 200vh;
+    right: 140px;
+    top: -97px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.eneion{
+    position: relative;
+    width: 200vh;
+    right: 165px;
+    top: -105px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+/*LINEA DERECHA*/
+
+.raya25{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    left: 98px;
+    bottom:180px;
+    
+}
+
+.raya26{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    left: 98px;
+    bottom:170px;
+}
+
+.raya27{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    left: 98px;
+    bottom:160px;
+    
+}
+
+.raya28{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    left: 98px;
+    bottom:140px;
+    
+}
+
+.raya29{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    left: 98px;
+    bottom:114px;
+}
+
+.raya30{
+    background: white;
+    position: relative;
+    border: solid 1px black;
+    width: 3vh;
+    height: 1px;
+    left: 98px;
+    bottom:95px;
+}
+
+.matomico{
+    position: relative;
+    width: 200vh;
+    left: 133px;
+    bottom: 203px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.edo{
+    position: relative;
+    width: 200vh;
+    left: 130px;
+    bottom: 208px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.elne{
+    position: relative;
+    width: 200vh;
+    left: 130px;
+    bottom: 214px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.simb{
+    position: relative;
+    width: 200vh;
+    left: 133px;
+    bottom: 210px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.esatomica{
+    position: relative;
+    width: 200vh;
+    left: 133px;
+    bottom: 199px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nomb{
+    position: relative;
+    width: 200vh;
+    left: 133px;
+    bottom: 195px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+

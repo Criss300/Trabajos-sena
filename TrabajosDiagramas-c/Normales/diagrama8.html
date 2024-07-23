@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama8</title>
+</head>
+<body>
+    <script>
+        let valorDia = 200.000;
+        let diaTrabajados = 30;
+        let sueldo = 500.000;
+        let salud;
+        let pension;
+        let descuento;
+        let arl;
+        let pagoTotal;
+
+        sueldo = diaTrabajados * valorDia;
+
+        salud = sueldo * 0.12;
+
+        pension = sueldo * 0.16;
+
+        arl = sueldo * 0.052;
+
+        descuento = salud + pension + arl;
+
+        pagoTotal = sueldo - descuento;
+
+        console.log(salud);
+
+        console.log(pension);
+
+        console.log(arl);
+
+        console.log(pagoTotal);
+    
+
+    </script>
+</body>
+</html>

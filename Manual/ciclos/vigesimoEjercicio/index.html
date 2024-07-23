@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de multiplicar desde 1 hasta 5 que multiplique hasta 5 </title>
+</head>
+<body>
+    <script>
+
+        let limite 
+        let tabla 
+        let num 
+        let resultado 
+        let pares 
+        let impares 
+
+        limite = 5 
+        tabla = 0 
+        pares =0
+        impares = 0
+        while(tabla<limite){
+            tabla = tabla + 1
+            for(num = 1 ; num <= limite ; num++){
+                resultado = tabla * num
+                if(resultado%2==0){
+                    pares = pares + 1
+                    console.log(tabla+"x"+num+"="+resultado+ " buzz")
+                }
+                else{
+                    impares = impares + 1 
+                    console.log(tabla+"x"+num+"="+resultado+ " bass")
+                }
+            }
+
+           
+        }
+        console.log("Cantidad de pares " +pares)
+        console.log("Cantidad de impares " +impares)
+        
+        
+    </script>
+</body>
+</html>
